@@ -1,0 +1,290 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #da785d;
+  background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
+  color: #fff;
+}
+
+.white-section {
+  background-color: rgb(253, 253, 253);
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+ 
+}
+
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* font-family: "Montserrat"; */
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #da785d;
+  /* background-image: url("https://www.transparenttextures.com/patterns/swirl.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
+  color: #fff;
+  text-align: left;
+  box-shadow: inset 0 -7px 10px -5px #000000;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Title Image */
+
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+  left: 50px;
+
+}
+
+.lightButton:hover{
+  background-color: #acbb93;
+  border-color: #acbb93;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+ 
+  color: #da785d;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #acbb93;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #acbb93;
+  /* background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png"); */
+  /* border-top: 3px solid #da785d; */
+  box-shadow: inset 0 7px 10px -5px #000000;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  position: relative;
+  top: 40px;
+}
+
+.testimonial-name{
+  position: relative;
+  top: 40px;
+}
+
+.testimonial-image {
+  width: 8%;
+  /* height: 110px; */
+  border-radius: 100%;
+  margin: 20px;
+  position: relative;
+  top: 40px;
+}
+
+#press {
+  background-color: #acbb93;
+  /* background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png"); */
+  box-shadow: inset 0 -7px 10px -5px #000000;
+
+  /* box-shadow: outline 0px 11px 13px 10px #000 */
+}
+
+.press-logo {
+  /* width: 15%; */
+  margin: 20px 20px 50px;
+  position: relative;
+}
+
+.tcLogo{
+  width:13%;
+  top:18px;
+}
+
+.tnwLogo{
+  width:9%;
+}
+
+.bizLogo{
+  top:20px;
+}
+
+.mashLogo{
+  width:12%;
+  top:15px;
+}
+
+.colored-section{
+   box-shadow: inset 0px -15px 8px -10px #da785d;
+  /*, inset 0px 11px 13px -10px #000; */
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  transition: margin linear 900ms, opacity linear 2000ms;
+  /*-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); */
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.slideItDown {
+  margin-top: 300px;
+  opacity: 0;
+}
+
+.slideItUp {
+  margin-top: 0;
+  opacity: 1;
+}
+
+/* CTA Section */
+
+
+@keyframes slidePricingDownUp {
+  from {
+    margin-top: 300px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+#pricing {
+  animation: slidePricingDownUp 2.2s ease;
+}
+
+
+.wrapperin{
+  text-align: center;
+  animation: slidein 4.2s ease;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+
+
+/* Footer Section */
+
+
+
+.copyright{
+  font-size: 0.8rem;
+  position: relative;
+  top:100px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  position: relative;
+  top: 90px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 90%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  .wrapperin{
+    animation: none;
+  }
+}
